@@ -14,4 +14,5 @@
 						:components ((:file "wallpaper"))))
   :depends-on (:alloy
 			   :alloy-windowing
-			   :alloy-glfw))
+			   :alloy-glfw
+			   :bordeaux-threads))

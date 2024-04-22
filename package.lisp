@@ -1,7 +1,7 @@
 ;;;; package.lisp
 
 (defpackage #:meaty
-  (:use #:cl)
+  (:use #:cl #:uiop)
   (:local-nicknames
    (#:alloy #:org.shirakumo.alloy)
    (#:glfw #:org.shirakumo.alloy.renderers.glfw)
