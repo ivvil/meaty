@@ -1,7 +1,5 @@
-;;;; package.lisp
-
-(defpackage #:dev.shft.dev.meaty
-  (:use #:cl #:uiop)
+(defpackage #:dev.shft.meaty.bar
+  (:use #:cl)
   (:local-nicknames
    (#:alloy #:org.shirakumo.alloy)
    (#:glfw #:org.shirakumo.alloy.renderers.glfw)
@@ -12,3 +10,5 @@
    (#:animation #:org.shirakumo.alloy.animation)
    (#:colored #:org.shirakumo.alloy.colored)
    (#:colors #:org.shirakumo.alloy.colored.colors)))
+
+(in-package #:dev.shft.meaty.bar)

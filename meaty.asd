@@ -8,8 +8,6 @@
   :serial t
   :components ((:file "package")
                (:file "meaty")
-			   (:module "bar"
-						:components ((:file "bar")))
 			   (:module "wallpaper"
 						:components ((:file "wallpaper"))))
   :depends-on (:alloy

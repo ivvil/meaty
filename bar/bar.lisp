@@ -1,7 +1,8 @@
 ;;; bar.lisp
 (in-package :meaty)
 
-(defvar *screen* (glfw:with-screen ()))
+(defvar *screen*)
+(defclass screen (glfw:screen) ())
 
 (defun start (screen)
   (let* ((window (windowing:make-window screen))
